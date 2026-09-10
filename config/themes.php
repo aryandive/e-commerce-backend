@@ -25,14 +25,14 @@ return [
             ],
         ],
 
-        'zpad' => [
-            'name' => 'Z PAD',
-            'assets_path' => 'public/themes/shop/zpad',
-            'views_path' => 'resources/themes/zpad/views',
+        'ecom' => [
+            'name' => 'ECOM',
+            'assets_path' => 'public/themes/shop/ecom',
+            'views_path' => 'resources/themes/ecom/views',
             
             'vite' => [
-                'hot_file' => 'shop-zpad-vite.hot',
-                'build_directory' => 'themes/shop/zpad/build',
+                'hot_file' => 'shop-ecom-vite.hot',
+                'build_directory' => 'themes/shop/ecom/build',
                 'package_assets_directory' => 'src/Resources/assets',
             ],
         ],

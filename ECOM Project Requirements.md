@@ -1,8 +1,8 @@
-# **Product Requirements Document (PRD): Z PAD E-Commerce Store**
+# **Product Requirements Document (PRD): ECOM E-Commerce Store**
 
 ## **1\. Project Overview**
 
-The objective is to build a minimal, highly focused e-commerce storefront for "Z PAD" using the Bagisto (PHP/Laravel) framework. The primary goal is to deliver a fully functional "Shop" and "Customer Account" experience, alongside a robust "Admin Panel" for product management. Other standard pages (Home, Contact, etc.) will exist in the routing and layout but remain completely empty for this phase of development.
+The objective is to build a minimal, highly focused e-commerce storefront for "ECOM" using the Bagisto (PHP/Laravel) framework. The primary goal is to deliver a fully functional "Shop" and "Customer Account" experience, alongside a robust "Admin Panel" for product management. Other standard pages (Home, Contact, etc.) will exist in the routing and layout but remain completely empty for this phase of development.
 
 ## **2\. Technology Stack**
 
@@ -14,7 +14,7 @@ The objective is to build a minimal, highly focused e-commerce storefront for "Z
 
 ## **3\. Frontend Scope & App Shell**
 
-The frontend will be a custom Bagisto theme built to mimic the minimal aesthetic of the Z PAD reference image.
+The frontend will be a custom Bagisto theme built to mimic the minimal aesthetic of the ECOM reference image.
 
 ### **3.1 Global Layout**
 
