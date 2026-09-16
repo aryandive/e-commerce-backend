@@ -75,6 +75,7 @@ class EventServiceProvider extends ServiceProvider
          */
         'customer.registration.after' => [
             [Customer::class, 'afterCreated'],
+            [\Webkul\Shop\Listeners\GuestOrder::class, 'afterCustomerCreated'],
         ],
 
         'customer.password.update.after' => [
@@ -106,6 +107,7 @@ class EventServiceProvider extends ServiceProvider
         'checkout.order.save.after' => [
             [Order::class, 'afterCreated'],
             [CatalogCache::class, 'flush'],
+            [\Webkul\Shop\Listeners\GuestOrder::class, 'afterOrderCreated'],
         ],
 
         'sales.order.cancel.after' => [

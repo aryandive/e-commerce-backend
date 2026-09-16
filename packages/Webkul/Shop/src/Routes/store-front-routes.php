@@ -99,6 +99,8 @@ Route::get('search', [SearchController::class, 'index'])
 
 Route::post('search/upload', [SearchController::class, 'upload'])->name('shop.search.upload');
 
+Route::get('track-order', [\Webkul\Shop\Http\Controllers\OrderTrackingController::class, 'index'])->name('shop.track_order.index');
+
 /**
  * Subscription routes.
  */

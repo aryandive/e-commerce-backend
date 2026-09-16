@@ -36,9 +36,9 @@ export default defineConfig(({ mode }) => {
             vue(),
 
             laravel({
-                hotFile: "../../../public/shop-default-vite.hot",
+                hotFile: "../../../public/shop-ecom-vite.hot",
                 publicDirectory: "../../../public",
-                buildDirectory: "themes/shop/default/build",
+                buildDirectory: "themes/shop/ecom/build",
                 input: [
                     "src/Resources/assets/css/app.css",
                     "src/Resources/assets/js/app.js",
